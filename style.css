@@ -166,6 +166,52 @@ table {
 .sidebar {
 	grid-area: 1 / 1 / 3 / 2;
 	background-color: skyblue;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1.5rem;
+	gap: 4rem;
+}
+
+.sidebar-logo {
+	display: flex;
+	margin-right: auto;
+	gap: 1rem;
+}
+
+.sidebar-logo > img {
+	width: 3rem;
+	height: 3rem;
+}
+
+.sidebar-logo > h1 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin: auto 0;
+}
+
+.main-settings,
+.support-settings {
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 1.75rem;
+}
+
+.setting-box {
+	display: flex;
+	gap: 1.5rem;
+	align-items: center;
+}
+
+.setting-box > img {
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+.setting-box > p {
+	font-size: 1.25rem;
+	font-weight: bold;
 }
 
 .main-content {
